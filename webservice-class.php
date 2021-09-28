@@ -115,7 +115,7 @@ class WebserviceBoxito {
 	function validate_caorreo($json)
 	{
 		$exist =0;
-		$con = mysqli_connect('localhost', 'admini', '5Chwh83~','admin_K');
+		$con = mysqli_connect('localhost', 'admini', 'rb#Cx992~','b5is2p');
 		if (!$con) 
 		{
 			  die("Connection failed: " . mysqli_connect_error());
@@ -143,7 +143,7 @@ class WebserviceBoxito {
 		if(isset($json->reporte))
 			{
 				
-				$con = mysqli_connect('localhost', 'admini', '5Chwh83~','admin_K');
+				$con = mysqli_connect('localhost', 'admini', 'rb#Cx992~','b5is2p');
 				if (!$con) 
 				{
 				  die("Connection failed: " . mysqli_connect_error());
@@ -172,7 +172,7 @@ class WebserviceBoxito {
 		if(isset($json->usuario))
 			{
 				
-				$con = mysqli_connect('localhost', 'admini', '5Chwh83~','admin_K');
+				$con = mysqli_connect('localhost', 'admini', 'rb#Cx992~','b5is2p');
 				if (!$con) 
 				{
 				  die("Connection failed: " . mysqli_connect_error());
@@ -200,7 +200,7 @@ class WebserviceBoxito {
 
 		if(isset($json->usuario))
 		{
-			$con = mysqli_connect('localhost', 'admini', '5Chwh83~','admin_K');
+			$con = mysqli_connect('localhost', 'admini', 'rb#Cx992~','b5is2p');
 				if (!$con) 
 				{
 				  die("Connection failed: " . mysqli_connect_error());
@@ -228,7 +228,7 @@ class WebserviceBoxito {
 	{
 		if(isset($json->usuario))
 		{
-			$con = mysqli_connect('localhost', 'admini', '5Chwh83~','admin_K');
+			$con = mysqli_connect('localhost', 'admini', 'rb#Cx992~','b5is2p');
 				if (!$con) 
 				{
 				  die("Connection failed: " . mysqli_connect_error());
@@ -254,7 +254,7 @@ class WebserviceBoxito {
 		if(isset($json->usuario))
 			{
 				
-				$con = mysqli_connect('localhost', 'admini', '5Chwh83~','admin_K');
+				$con = mysqli_connect('localhost', 'admini', 'rb#Cx992~','b5is2p');
 				if (!$con) 
 				{
 				  die("Connection failed: " . mysqli_connect_error());
@@ -279,7 +279,7 @@ class WebserviceBoxito {
 		
 		if(isset($json->usuario))
 		{
-			$con = mysqli_connect('localhost', 'admini', '5Chwh83~','admin_K');
+			$con = mysqli_connect('localhost', 'admini', 'rb#Cx992~','b5is2p');
 				if (!$con) 
 				{
 				  die("Connection failed: " . mysqli_connect_error());
